@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+
+body{
+    
+    background-image: url(bg4.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: rgb(7, 6, 6);
+    display: flex;
+    position: sticky;
+    width: 100%;
+    top:0;
+    justify-content: space-around;
+    align-items: center;
+    height: 8%; 
+    color: azure;  
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.navbar li{    
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #a8e5e8;
+    font-size: 18px;
+}
+
+.logo, .welcome{
+    color: cornsilk;
+    letter-spacing: 3px; 
+    font-size: larger;
+}
+
+.head{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: antiquewhite;
+    text-shadow: 1px 1px 4px black;
+}
+
+form{
+    display: inline;
+}
+
+[type=date]{
+    margin-top: 2%;
+    color: antiquewhite;
+    width: 8%;
+    background-color: rgba(65, 60, 55, 0.7);
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    line-height: 2em;
+}
+
+[type=submit]{
+    margin-top: 2%;
+    padding: 0.4rem 1.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgba(65, 60, 55, 0.7);;
+    border-radius: 1rem;
+}
+
+[type=submit]:hover, [type=date]:hover{
+    background-color: rgba(39, 36, 33, 0.7);
+}
+
+.slot-container{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.slot{
+    margin: 2%;
+    width:  10%;
+    height: 35%;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+.slot:hover{
+    background-color: rgb(151, 151, 151);
+}
+
+.slot:active{
+    background-color: rgb(116, 116, 116);
+}
+
+.slot_no{
+    margin: 10%;
+}
+
+.status{
+    position:relative;
+    text-align: center;
+    margin-top: 90%;
+}
+
+.detail_container{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.err_header{
+    margin-left: 25%;
+    font-size: 38px;
+    width: 50%;
+    color: rgba(209, 0, 0, 0.781);
+    background-color: rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 0px rgba(255, 255, 0, 0.562);
+    border-radius: 10px;
+}
+
+.detail_header{
+    font-size: 35px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 10px;
+}
+
+.detail_proceed{
+    margin-top: 5%;
+    font-size: 25px;
+    padding: 5px;
+    
+}

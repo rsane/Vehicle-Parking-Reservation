@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+
+body{    
+    background-image: url(bg7.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.navbar{
+    background-color: rgb(7, 6, 6);
+    display: flex;
+    position: sticky;
+    width: 100%;
+    top:0;
+    justify-content: space-around;
+    align-items: center;
+    height: 8%; 
+    color: azure;  
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.navbar li{    
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #a8e5e8;
+    font-size: 18px;
+}
+
+.logo, .welcome{
+    color: cornsilk;
+    letter-spacing: 3px; 
+    font-size: larger;
+}
+
+.cash_card{
+    height: 20%;
+    display: inline-flex;
+    margin-top: 5%;
+}
+
+.card{
+    width: 30%;
+    height: 50%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold   ;
+    font-family: 'monospace';
+    padding: 5% 20%;
+}
+
+i { 
+    transform: scale(1.3,1); 
+    padding: 5px;
+}
+
+.day{
+    margin: 0% 30%;
+}
+
+.week{
+    margin: 0% 30%    
+}
+
+.month{
+    margin: 0% 30%;
+}
+
+.day, .week, .month{
+    background: linear-gradient(60deg, #06f3ff, #3be6f0, #4fd9e0, #5cccd2, #66bfc3, #6cb2b5, #71a5a7);
+}
+
+/*for displaying cards*/
+.coll{
+    display: none;
+}
+.card:hover .coll{
+    display: block;
+}
+.card:hover .show{
+    display: none;
+}
+
+/*for displaying table*/
+.cash_day, .cash_week, .cash_month{
+    display: none;
+}
+
+.table{
+    margin-top: 4%;
+    margin-left: 38%;
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    overflow: auto;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {background-color: #afafaf;}
+tr:nth-child(odd) {background-color: #dfdfdf;}
+
+td, th{
+    text-align: center;
+    padding: 10px;
+}
+
+th{
+    width: 150px;
+    background: linear-gradient(60deg, #06f3ff, #3be6f0, #4fd9e0, #5cccd2, #66bfc3, #6cb2b5, #71a5a7);
+    position: sticky;
+    top:0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 119, 119);
+  border-radius: 10px;
+}

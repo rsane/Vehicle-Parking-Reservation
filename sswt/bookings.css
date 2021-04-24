@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+
+body{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bg5.jpg); 
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: rgb(7, 6, 6);
+    display: flex;
+    position: sticky;
+    width: 100%;
+    top:0;
+    justify-content: space-around;
+    align-items: center;
+    height: 8%; 
+    color: azure;  
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.navbar li{    
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #a8e5e8;
+    font-size: 18px;
+}
+
+.logo, .welcome{
+    color: cornsilk;
+    letter-spacing: 3px; 
+    font-size: larger;
+}
+
+.content_container{
+    width: 60%;
+    height: 160%;
+    background: rgba(97, 92, 121, 1.0);
+    background: -webkit-linear-gradient(top left, rgba(97, 92, 121, 1.0), rgba(1, 1, 1, 1.0));
+    background: -moz-linear-gradient(top left, rgba(97, 92, 121, 1.0), rgba(1, 1, 1, 1.0));
+    background: linear-gradient(to bottom right, rgba(97, 92, 121, 1.0), rgba(1, 1, 1, 1.0));
+}
+
+.bill{
+    width:65%;
+    height: 80%;
+    margin-left: 15%;
+    background-color: rgb(216, 255, 138);
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.logo2{
+    padding: 5px;
+    margin-left: 5%;
+    width: 14%;
+    color: black;
+    letter-spacing: 3px; 
+    font-size: larger;
+    background-color: rgb(255, 149, 229);;
+    border-radius: 100%;
+}
+
+.header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(197, 30, 30);
+}
+
+.address{
+    margin-left: 6%;
+    font-size: 15px;
+}
+
+.contents{
+    margin-top: 5%;
+    padding: 5px;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-size: 25px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 5px;
+    margin-top: 5%;
+    border-bottom: 1px solid black;
+}
+
+.tax{
+    border-bottom: 0;
+    line-height: normal;
+}
+
+span{
+    float:right;
+    color: rgb(255, 67, 67);
+}
+
+.btn{
+    text-align: center;  
+    
+}
+
+.tot{
+    border-top: 1px solid black;
+}
+
+[type=submit]{
+    margin-top: 2%;
+    padding: 0.4rem 1.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgba(65, 60, 55, 0.7);;
+    border-radius: 1rem;
+}
+
+[type=submit]:hover{
+    background-color: rgba(39, 36, 33, 0.7);
+}

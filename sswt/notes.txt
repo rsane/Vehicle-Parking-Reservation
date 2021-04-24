@@ -1,0 +1,16 @@
+I made this project for my academics. It's basic HTML, PHP & MySQL.
+
+To run the website, follow these steps:
+
+1. Copy the entire folder in E://xampp/htdocs/
+
+2. Use XAMPP server and Start Apache and MySQL
+3. Type 'localhost/phpmyadmin' on your browser's URL and click on 'Import'
+4. Import the file 'sswt.sql' there
+
+5. The projects starts from 'login_html.php' page
+6. Type 'localhost/sswt/login_html.php' in your browsers url to access the login page.
+
+7. Admin Id: admin123 and password: Admin@123
+8. You can create more users through register page.
+
